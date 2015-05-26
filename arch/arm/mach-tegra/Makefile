@@ -1,7 +1,8 @@
 GCOV_PROFILE := y
 
 asflags-y				+= -march=armv7-a
-subdir-ccflags-y := -Werror
+subdir-ccflags-y := 
+#-Werror
 
 obj-y                                   += ahb.o
 obj-y                                   += common.o
